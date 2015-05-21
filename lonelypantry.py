@@ -1,4 +1,5 @@
-# TODO // remove duplicates, make tool for recipe input, email list
+# TODO // remove duplicates, pretty print of ingredients,
+# make tool for recipe input, email list
 
 # lonely pantry tool
 import random
