@@ -3,10 +3,14 @@
 
 from lonelypantry_ingredients import *
 
-meal_plan = raw_input("What would you like to cook this week? Separate\
-                      with commas. ")
+num_meal = int(raw_input("How many meals are you cooking this week? "))
 
 def retrieve_ingredients():
+    meal_plan= []
+    for count in range(num_meal):
+        meal_plan.append(raw_input("Enter meal: "))
     for item in meal_plan:
-        print dinner_dict[item]
+        print ', '.join(dinner_dict[item])
+
+retrieve_ingredients()
 
