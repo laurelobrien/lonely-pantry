@@ -1,6 +1,6 @@
 # recipe book
 
-# dinners / general meals
+# meal lists
 fried_rice = ['eggs','rice','soy sauce','sugar','sriracha','meat','ginger']
 stir_fried_noodles = ['instant noodles', 'soy sauce', 'sriracha','ginger',
                       'garlic','meat','eggs']
@@ -21,6 +21,7 @@ carnitas_tacos = ['pork shoulder','beer','orange juice','garlic','thyme',
                 'tortillas','sour cream','cheese','refried beans']
 quesadillas = ['cheese','meat','tortillas','avocado']
 pizza = ['frozen pizza']
+scrambled_eggs_on_toast = ['eggs', 'sour cream', 'butter', 'bread']
 
 # dictionary
 dinner_dict = {'fried rice':fried_rice,
@@ -35,10 +36,13 @@ dinner_dict = {'fried rice':fried_rice,
               'teriyaki chicken':teriyaki_chicken,
               'grilled cheese':grilled_cheese,
               'sushi bowl':sushi_bowl,
-               'gnocchi':gnocchi
-              }
+               'gnocchi':gnocchi,
+               'sautee salmon':sautee_salmon,
+               'scrambled eggs on toast':scrambled_eggs_on_toast
+               }
 
 # breakfasts
+"""pass"""
 
-# snacks and drinks
-
+# I/O inputs: move to meal lists and make dictionary entry
+['lemon_lime_tart =', ['butter', 'flour', 'sugar', 'sweetened condensed milk', 'lemon', 'limes', 'eggs']]['vietnamese_iced_coffee =', ['ground coffee', 'sweetened condensed milk']]

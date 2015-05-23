@@ -13,7 +13,7 @@ def retrieve_ingredients():
     meal_plan = set(meal_plan) #eliminates duplicates
     for item in meal_plan:
         grocery_list.extend(dinner_dict[item]) #merges ingredient lists
-    print "Grocery List\n"
+    print "\nGrocery List\n"
     for item in set(grocery_list):
         print item.capitalize()
 

@@ -3,10 +3,14 @@
 meal = []
 recipe = raw_input("Recipe name: ")
 recipe_mats = raw_input("Ingredients, separated by commas: ")
-meal.append(recipe.upper())
+
+# format string to resemble a list definition
+recipe = recipe.replace(' ','_')
+meal.append(recipe+' =')
 meal.append(recipe_mats.split(', '))
 
-print meal
-
-"""f = open('lonelypantry_ingredients', 'a')
-f.append(meal"""
+print "Added %s to lonelypantry_ingredients."%(recipe.replace('_',' ')
+                                                 .capitalize())
+f = open('lonelypantry_ingredients.py', 'a')
+f.write(str(meal))
+f.close()
