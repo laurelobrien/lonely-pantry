@@ -7,7 +7,7 @@ stir_fried_noodles = ['instant noodles', 'soy sauce', 'sriracha','ginger',
 hot_and_sour_soup = ['chicken broth','rice vinegar','mince pork','sriracha',
                      'soy sauce','garlic','ginger','tofu']
 eggs_benedict = ['eggs','butter','lemon','bread','ham or bacon']
-sushi_bowl = ['rice','canned tuna','mayonnaise','soy sauce','furikake',
+sushi_bowl = ['minute rice','canned tuna','mayonnaise','soy sauce',
               'sriracha','nori']
 grilled_cheese = ['butter','bread','cheese','sliced deli meat']
 teriyaki_chicken = ['chicken thighs','soy sauce', 'sugar', 'garlic','ginger',
@@ -71,6 +71,6 @@ dinner_dict = {'fried rice':fried_rice,
 # ingredients already in pantry/fridge
 stock = ['sriracha', 'flour', 'sugar', 'butter', 'eggs', 'ham', 'soy sauce',
           'rice vinegar', 'bread', 'garlic', 'coffee', 'juice',
-          'frozen berries', 'cheese', 'baking powder']
+          'frozen berries', 'cheese', 'baking powder', 'rice', 'mayonnaise']
 
 # I/O inputs below: move to meal list and make dictionary entry
