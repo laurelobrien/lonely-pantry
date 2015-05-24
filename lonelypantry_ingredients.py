@@ -6,7 +6,7 @@ stir_fried_noodles = ['instant noodles', 'soy sauce', 'sriracha','ginger',
                       'garlic','meat','eggs']
 hot_and_sour_soup = ['chicken broth','rice vinegar','mince pork','sriracha',
                      'soy sauce','garlic','ginger','tofu']
-eggs_benedict = ['eggs','butter','lemon','bread','ham or bacon']
+eggs_benedict = ['eggs','butter','lemon','bread','ham']
 sushi_bowl = ['minute rice','canned tuna','mayonnaise','soy sauce',
               'sriracha','nori']
 grilled_cheese = ['butter','bread','cheese','sliced deli meat']
