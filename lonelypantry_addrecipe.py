@@ -26,7 +26,8 @@ def add_another():
     elif repeat == 'n':
         sys.exit()
     else:
-        print "Sorry, I didn't understand you. Please press y or n followed by enter."
+        print "Sorry, I didn't understand you. Please press y or n followed by\
+enter."
         add_another()
 
 write_new()

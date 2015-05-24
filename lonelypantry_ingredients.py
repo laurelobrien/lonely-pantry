@@ -68,7 +68,9 @@ dinner_dict = {'fried rice':fried_rice,
                'guacamole':guacamole
                }
 
-# breakfasts
-"""pass"""
+# ingredients already in pantry/fridge
+stock = ['sriracha', 'flour', 'sugar', 'butter', 'eggs', 'ham', 'soy sauce',
+          'rice vinegar', 'bread', 'garlic', 'coffee', 'juice',
+          'frozen berries', 'cheese', 'baking powder']
 
 # I/O inputs below: move to meal list and make dictionary entry
