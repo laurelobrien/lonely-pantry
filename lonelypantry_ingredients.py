@@ -1,12 +1,11 @@
 # recipe book
 
-# meal lists
+# meal list
 fried_rice = ['eggs','rice','soy sauce','sugar','sriracha','meat','ginger']
 stir_fried_noodles = ['instant noodles', 'soy sauce', 'sriracha','ginger',
                       'garlic','meat','eggs']
 hot_and_sour_soup = ['chicken broth','rice vinegar','mince pork','sriracha',
                      'soy sauce','garlic','ginger','tofu']
-oven_pizza = ['frozen pizza']
 eggs_benedict = ['eggs','butter','lemon','bread','ham or bacon']
 sushi_bowl = ['rice','canned tuna','mayonnaise','soy sauce','furikake',
               'sriracha','nori']
@@ -20,8 +19,25 @@ gnocchi = ['gnocchi', 'pesto', 'chicken']
 carnitas_tacos = ['pork shoulder','beer','orange juice','garlic','thyme',
                 'tortillas','sour cream','cheese','refried beans']
 quesadillas = ['cheese','meat','tortillas','avocado']
-pizza = ['frozen pizza']
+pizza = ['pizza']
 scrambled_eggs_on_toast = ['eggs', 'sour cream', 'butter', 'bread']
+crepes = ['flour', 'eggs', 'milk', 'lemon', 'sugar']
+pancakes = ['flour', 'milk', 'eggs', 'baking powder', 'salt']
+
+# snacks, beverages, desserts etc
+vietnamese_iced_coffee = ['ground coffee', 'sweetened condensed milk']
+margaritas = ['lemon', 'limes', 'sugar', 'tequila', 'triple sec', 'salt']
+lemon_lime_tart = ['butter', 'flour', 'sugar', 'sweetened condensed milk',
+                       'lemon', 'limes', 'eggs']
+cinnamon_buns = ['canned cinnamon bun dough']
+smoothie = ['frozen berries', 'banana', 'juice', 'yogurt']
+protein_shake = ['milk', 'protein powder', 'frozen yogurt', 'peanut butter',
+                 'cocoa powder']
+espresso_gelato = ['milk', 'eggs', 'sugar', 'coffee', 'vanilla']
+mintade = ['oranges', 'grapefruit', 'lemon', 'limes', 'fresh mint', 'sugar']
+chocolate_tart = ['flour', 'butter', 'sugar', 'butter', 'whipping cream',
+                  'block chocolate', 'spice/herb']
+guacamole = ['avocado', 'sour cream', 'lime', 'salt']
 
 # dictionary
 dinner_dict = {'fried rice':fried_rice,
@@ -38,11 +54,21 @@ dinner_dict = {'fried rice':fried_rice,
               'sushi bowl':sushi_bowl,
                'gnocchi':gnocchi,
                'sautee salmon':sautee_salmon,
-               'scrambled eggs on toast':scrambled_eggs_on_toast
+               'scrambled eggs on toast':scrambled_eggs_on_toast,
+               'vietnamese iced coffee':vietnamese_iced_coffee,
+               'margaritas':margaritas,
+               'crepes':crepes,
+               'pancakes':pancakes,
+               'cinnamon buns':cinnamon_buns,
+               'smoothie':smoothie,
+               'protein shake':protein_shake,
+               'espresso gelato':espresso_gelato,
+               'mintade':mintade,
+               'chocolate tart':chocolate_tart,
+               'guacamole':guacamole
                }
 
 # breakfasts
 """pass"""
 
-# I/O inputs: move to meal lists and make dictionary entry
-['lemon_lime_tart =', ['butter', 'flour', 'sugar', 'sweetened condensed milk', 'lemon', 'limes', 'eggs']]['vietnamese_iced_coffee =', ['ground coffee', 'sweetened condensed milk']]
+# I/O inputs below: move to meal list and make dictionary entry
