@@ -10,6 +10,7 @@ def retrieve_ingredients():
     additionals = raw_input("Enter any essentials separated by commas, such \
 as coffee cream or toilet paper.\nIf there are none needed, press 'n'. ")
     print "Meals for the week - hit enter after each meal."
+    email_string = ""
     meal_plan = []
     grocery_list = []
     for count in range(num_meal):
@@ -20,19 +21,19 @@ as coffee cream or toilet paper.\nIf there are none needed, press 'n'. ")
     if additionals != 'n':
         grocery_list.extend(additionals.split(', '))
     # printing final grocery list
-    print "\nGrocery List\n"
     for item in set(grocery_list):
         if item not in stock: # checking stock list in ingredients file
-            print item.capitalize()
-    print "\nItems excluded because you already have them at home:"
+            email_string += item.capitalize() + '\n'
+    """print "\nItems excluded because you already have them at home:"
     for item in set(grocery_list):
         if item in stock:
-            print item.capitalize()
+            email_string2 += item.capitalize() + '\n'"""
+    return email_string
 
 # enter login credentials and recipient as strings; recipient does not
 # have to be a gmail address, but user and pwd does
-to = 'placeholder@placeholder.com'
-gmail_user = 'filler@filler.com'
+to = 'recipient@recipient.com'
+gmail_user = 'youremail@youraddress.com'
 gmail_pwd = 'yourpassword'
 
 # don't need to touch this part!
@@ -41,10 +42,10 @@ smtpserver.ehlo()
 smtpserver.starttls()
 smtpserver.ehlo
 smtpserver.login(gmail_user, gmail_pwd)
-header = 'To:' + to + '\n' + 'From: ' + gmail_user + '\n' + 'Subject:testing \n'
+header = 'To:' + to + '\n' + 'From: ' + gmail_user + '\n' + 'Subject:Grocery List \n'
 print header
-msg = header + '\n optional email-body text here \n\n' + str(
-    retrieve_ingredients())
+msg = header + '\nGrocery List:\
+\n\n' + retrieve_ingredients() + '\n\nLove, Laurel'
 smtpserver.sendmail(gmail_user, to, msg)
-print 'Sent!'
+print 'Sent to %s!'%to
 smtpserver.close()
