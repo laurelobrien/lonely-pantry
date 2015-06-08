@@ -12,7 +12,7 @@ sushi_bowl = ['minute rice','canned tuna','mayonnaise','soy sauce',
 grilled_cheese = ['butter','bread','cheese','sliced deli meat']
 teriyaki_chicken = ['chicken thighs','soy sauce', 'sugar', 'garlic','ginger',
                    'rice']
-sautee_salmon = ['salmon fillet','5+ limes','butter', 'garlic']
+sautee_salmon = ['salmon fillet','lime','butter', 'garlic']
 ramen = ['noodle bowls','eggs']
 pasta_cabonara = ['dry pasta','bacon','garlic','eggs','cheese']
 gnocchi = ['gnocchi', 'pesto', 'chicken']
@@ -23,18 +23,21 @@ pizza = ['pizza']
 scrambled_eggs_on_toast = ['eggs', 'sour cream', 'butter', 'bread']
 crepes = ['flour', 'eggs', 'milk', 'lemon', 'sugar']
 pancakes = ['flour', 'milk', 'eggs', 'baking powder', 'salt']
+gyoza = ['gyoza', 'soy sauce', 'rice vinegar']
+pork_buns = ['pork buns']
+zaru_soba = ['buckwheat soba', 'green onion', 'nori', 'mirin', 'soy sauce']
 
 # snacks, beverages, desserts etc
 vietnamese_iced_coffee = ['ground coffee', 'sweetened condensed milk']
-margaritas = ['lemon', 'limes', 'sugar', 'tequila', 'triple sec', 'salt']
+margaritas = ['lemon', 'lime', 'sugar', 'tequila', 'triple sec', 'salt']
 lemon_lime_tart = ['butter', 'flour', 'sugar', 'sweetened condensed milk',
-                       'lemon', 'limes', 'eggs']
+                       'lemon', 'lime', 'eggs']
 cinnamon_buns = ['canned cinnamon bun dough']
 smoothie = ['frozen berries', 'banana', 'juice', 'yogurt']
 protein_shake = ['milk', 'protein powder', 'frozen yogurt', 'peanut butter',
                  'cocoa powder']
 espresso_gelato = ['milk', 'eggs', 'sugar', 'coffee', 'vanilla']
-mintade = ['oranges', 'grapefruit', 'lemon', 'limes', 'fresh mint', 'sugar']
+mintade = ['orange', 'grapefruit', 'lemon', 'limes', 'fresh mint', 'sugar']
 chocolate_tart = ['flour', 'butter', 'sugar', 'butter', 'whipping cream',
                   'block chocolate', 'spice/herb']
 guacamole = ['avocado', 'sour cream', 'lime', 'salt']
@@ -65,12 +68,32 @@ dinner_dict = {'fried rice':fried_rice,
                'espresso gelato':espresso_gelato,
                'mintade':mintade,
                'chocolate tart':chocolate_tart,
-               'guacamole':guacamole
+               'guacamole':guacamole,
+               'gyoza':gyoza,
+               'pork buns':pork_buns,
+               'zaru soba':zaru_soba,
+               'lemon lime tart':lemon_lime_tart
                }
 
 # ingredients already in pantry/fridge
-stock = ['sriracha', 'flour', 'sugar', 'butter', 'eggs', 'ham', 'soy sauce',
-          'rice vinegar', 'bread', 'garlic', 'coffee', 'juice',
-          'frozen berries', 'cheese', 'baking powder', 'rice', 'mayonnaise']
+stock = ['sriracha', 'flour', 'sugar', 'butter', 'eggs', 'soy sauce',
+          'rice vinegar', 'bread', 'garlic', 'coffee', 'tortillas',
+          'frozen berries', 'baking powder', 'rice', 'mayonnaise']
+
+# departments
+dept_produce = ['lime', 'lemon', 'green onion', 'banana','grapefruit',
+                'orange','avocado','ginger','garlic','fresh mint','thyme']
+dept_household = ['toilet paper', 'toothpaste', 'paper towels', 'sponges',
+                  'dish soap']
+dept_dairy = ['cheese', 'coffee cream', 'whipping cream', 'yogurt',
+              'eggs', 'sour cream', 'butter', 'milk']
+dept_meat = ['chicken','chicken thighs','mince pork','ham','bacon',
+             'pork shoulder',]
+dept_baking = ['sugar','flour','sweetened condensed milk','block chocolate',
+               'vanilla']
+dept_starchsauce = ['dry pasta', 'rice', 'soy sauce', 'mayonnaise',
+                    'sriracha', 'buckwheat soba','noodle bowls',
+                    'instant noodles','gnocchi','pesto']
+dept_frozen = ['ice cream','gelato','pizza','frozen berries','pierogies']
 
 # I/O inputs below: move to meal list and make dictionary entry
