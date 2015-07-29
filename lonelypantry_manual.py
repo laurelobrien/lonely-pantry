@@ -31,6 +31,7 @@ as coffee cream or toilet paper.\nIf there are none needed, press 'n'. ")
     return email_string
 
 # to do: remove departments from print output which have no ingredients in them
+# remove repetitions by creating classes
 def format_departments():
     email_produce = ""
     email_household = ""
@@ -57,18 +58,30 @@ def format_departments():
             email_frozen += (item.capitalize() + '\n')
         else:
             email_other += (item.capitalize() + '\n')
-    print '\n| PRODUCE |'
-    print email_produce
-    print '\n| HOUSEHOLD |'
-    print email_household
-    print '\n| MEAT |'
-    print email_meat
-    print '\n| DAIRY |'
-    print email_dairy
-    print '\n| BAKING |'
-    print email_baking
-    print '\n| OTHER |'
-    print email_other
+    if email_produce != "":
+        print '\n| PRODUCE |'
+        print email_produce
+    if email_household != "":
+        print '\n| HOUSEHOLD |'
+        print email_household
+    if email_meat != "":
+        print '\n| MEAT |'
+        print email_meat
+    if email_dairy != "":
+        print '\n| DAIRY |'
+        print email_dairy
+    if email_baking != "":
+        print '\n| BAKING |'
+        print email_baking
+    if email_starchsauce != "":
+        print '\n| STARCHES & SAUCES |'
+        print email_starchsauce
+    if email_frozen != "":
+        print '\n| FROZEN |'
+        print email_frozen
+    if email_other != "":
+            print '\n| OTHER |'
+            print email_other
 
 format_departments()
 

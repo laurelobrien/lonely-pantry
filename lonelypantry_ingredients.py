@@ -76,24 +76,24 @@ dinner_dict = {'fried rice':fried_rice,
                }
 
 # ingredients already in pantry/fridge
-stock = ['sriracha', 'flour', 'sugar', 'butter', 'eggs', 'soy sauce',
-          'rice vinegar', 'bread', 'garlic', 'coffee', 'tortillas',
-          'frozen berries', 'baking powder', 'rice', 'mayonnaise']
+stock = ['sriracha', 'flour', 'sugar', 'butter', 'soy sauce','rice vinegar',
+         'frozen berries', 'baking powder', 'rice']
 
 # departments
 dept_produce = ['lime', 'lemon', 'green onion', 'banana','grapefruit',
                 'orange','avocado','ginger','garlic','fresh mint','thyme']
 dept_household = ['toilet paper', 'toothpaste', 'paper towels', 'sponges',
-                  'dish soap']
+                  'dish soap', 'hand soap']
 dept_dairy = ['cheese', 'coffee cream', 'whipping cream', 'yogurt',
-              'eggs', 'sour cream', 'butter', 'milk']
+              'eggs', 'sour cream', 'butter', 'milk', 'juice']
 dept_meat = ['chicken','chicken thighs','mince pork','ham','bacon',
-             'pork shoulder',]
+             'pork shoulder', 'canned tuna']
 dept_baking = ['sugar','flour','sweetened condensed milk','block chocolate',
                'vanilla']
 dept_starchsauce = ['dry pasta', 'rice', 'soy sauce', 'mayonnaise',
                     'sriracha', 'buckwheat soba','noodle bowls',
-                    'instant noodles','gnocchi','pesto']
+                    'instant noodles','gnocchi','pesto', 'minute rice',
+                    'tortillas', 'bread']
 dept_frozen = ['ice cream','gelato','pizza','frozen berries','pierogies']
 
 # I/O inputs below: move to meal list and make dictionary entry
